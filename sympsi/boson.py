@@ -1,6 +1,6 @@
 """Bosonic quantum operators."""
 
-from sympy.core.compatibility import u
+from sympy.core.compatibility import u_decode as u
 from sympy import Mul, Integer, exp, sqrt, conjugate, DiracDelta, Symbol
 from sympsi import Operator, Commutator
 from sympsi import HilbertSpace, FockSpace, Ket, Bra, IdentityOperator
