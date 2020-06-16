@@ -2,7 +2,7 @@
 
 from warnings import warn
 
-from sympy.core.compatibility import u
+from sympy.core.compatibility import u_decode as u
 from sympy import Add, Mul, Pow, Integer, exp, sqrt, conjugate
 from sympy.functions.special.tensor_functions import KroneckerDelta
 
