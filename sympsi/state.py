@@ -4,7 +4,7 @@ from __future__ import print_function, division
 
 from sympy import (cacheit, conjugate, Expr, Function, integrate, oo, sqrt,
                    Tuple)
-from sympy.core.compatibility import u
+from sympy.core.compatibility import u_decode as u
 from sympy.printing.pretty.stringpict import prettyForm, stringPict
 from sympsi.qexpr import QExpr, dispatch_method
 
