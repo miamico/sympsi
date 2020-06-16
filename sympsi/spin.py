@@ -5,7 +5,7 @@ from __future__ import print_function, division
 from sympy import (Add, binomial, cos, exp, Expr, factorial, I, Integer, Mul,
                    pi, Rational, S, sin, simplify, sqrt, Sum, symbols, sympify,
                    Tuple, Dummy)
-from sympy.core.compatibility import u, unicode
+from sympy.core.compatibility import u_decode as u, unicode
 from sympy.core.evaluate import global_evaluate
 from sympy.matrices import zeros
 from sympy.printing.pretty.stringpict import prettyForm, stringPict
